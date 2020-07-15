@@ -7,11 +7,12 @@ body {
 }
 h1 {
   position: absolute;
-  width: 70%;
   top: 50%;
   left: 50%;
+  width: 70%;
   transform: translate(-50%, -50%);
   animation: fadein 1s;
+  margin: 0;
 }
 @keyframes fadein {
   from {
@@ -27,7 +28,7 @@ h1 {
   }
 }
 .blink {
-  animation: blink 2s linear infinite;
+  animation: blink 1s step-start 0s infinite;
 }
 footer {
   position: absolute;
